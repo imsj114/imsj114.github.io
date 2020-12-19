@@ -44,9 +44,9 @@ void dp(int t, int s, int e, int l, int r){
 
 풀어본 문제만 올려놓았다.
 
-* 지사배정 [https://www.acmicpc.net/problem/12766] (ICPC 2016 WF B)
+* 12766 지사배정 [https://www.acmicpc.net/problem/12766] (ICPC 2016 WF B)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMzQ1OTkwOTEwLDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
+kiOlsyMTExMTU3MjkyLDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
 NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
