@@ -36,10 +36,10 @@ void dp(int t, int s, int e, int l, int r){
 
 때때로 Condition 2를 보이는 것보다 $C(i, j)$가 다음의 조건을 만족함을 보이는 것이 더 쉬울 때가 있다.
 
-**Condition 2-1** 
+**Condition 2-1** $C(a, c) + C(b, d) \leq C(a, d) + C(b, c)$
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTkwOTAyNzg4NiwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
-LDczODkyODM0MywtMjUyMTc4OTEzLC0zOTYwODY1MzBdfQ==
+kiOlstMTM4NTgzOTA4LDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
+NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
