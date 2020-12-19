@@ -10,9 +10,13 @@ use_math: true
 
 **Condition 2**.  $A(t, i) := \argmin{k<i}{D(t-1, k) + C(k, i)}$일 때, $A(t, i) \leq A(t, i+1)$
 
+이 때, 
+
+
+
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOls5OTA4MDY1MjQsLTExNTQ1MTkyNDcsNzM4OTI4MzQzLC0y
+kiOls2MDY5MTY2MDQsLTExNTQ1MTkyNDcsNzM4OTI4MzQzLC0y
 NTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
