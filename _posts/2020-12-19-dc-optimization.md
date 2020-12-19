@@ -12,13 +12,13 @@ header-includes:
 
 **Condition 2**.  $A(t, i) := \argmin{k<i}{D(t-1, k) + C(k, i)}$일 때, $A(t, i) \leq A(t, i+1)$
 
-이 때, 
+최적화 기법 없이 **Condition 1**의 점화식을 구한ㄷ
 
 
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTk2NTQ3ODA4MywtMTE1NDUxOTI0Nyw3Mzg5MjgzNDMs
+kiOlstMTEwMDEyNTgzNywtMTE1NDUxOTI0Nyw3Mzg5MjgzNDMs
 LTI1MjE3ODkxMywtMzk2MDg2NTMwXX0=
 -->
