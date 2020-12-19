@@ -8,11 +8,11 @@ use_math: true
 
 **Condition 1**. $D(t, i) = \min_{k<i}{D(t-1, k) + C(k, i)}$
 
-**Condition 2**.  $D(t, i)$
+**Condition 2**.  $A(t, i) := \argmin{k<i}{D(t-1, k) + C(k, i)}$일 때, $A(t, i) \leq A(t, i+1)$
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTE1NDUxOTI0Nyw3Mzg5MjgzNDMsLTI1MjE3ODkxMywt
-Mzk2MDg2NTMwXX0=
+kiOls5OTA4MDY1MjQsLTExNTQ1MTkyNDcsNzM4OTI4MzQzLC0y
+NTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
