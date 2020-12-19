@@ -16,7 +16,7 @@ use_math: true
 
 ```c
 void dp(int t, int s, int e, int l, int r){
-    // get D[t][s..e] given that l <= k_opt <= r
+    // calculate D[t][s..e] given that l <= k_opt <= r
     if(s>e) return;
     int m = (s+e)>>1;
     D[t][m] = MAX_INT;
@@ -35,6 +35,6 @@ void dp(int t, int s, int e, int l, int r){
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMzQ1MTk1MTg3LDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
-NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
+kiOlstMTU3Nzk4NzQ5MSwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
+LDczODkyODM0MywtMjUyMTc4OTEzLC0zOTYwODY1MzBdfQ==
 -->
