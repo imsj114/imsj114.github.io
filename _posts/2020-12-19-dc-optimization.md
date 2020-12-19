@@ -32,9 +32,11 @@ void dp(int t, int s, int e, int l, int r){
 }
 ```
 
+## Condition 2의 특수한 경우
+
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTkzNzQyMTY5OSwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
+kiOlstMTkwOTIwOTY1MCwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
 LDczODkyODM0MywtMjUyMTc4OTEzLC0zOTYwODY1MzBdfQ==
 -->
