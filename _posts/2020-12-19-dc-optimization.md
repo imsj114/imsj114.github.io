@@ -8,11 +8,11 @@ use_math: true
 
 **Condition 1**. $D(t, i) \leq 1$
 
-Condition 2. $$
+**Condition 2**.  $D(t, i)$
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTM5NTkxOTI2MSw3Mzg5MjgzNDMsLTI1MjE3ODkxMywt
-Mzk2MDg2NTMwXX0=
+kiOlsxMDgwMzE0MDc5LDczODkyODM0MywtMjUyMTc4OTEzLC0z
+OTYwODY1MzBdfQ==
 -->
