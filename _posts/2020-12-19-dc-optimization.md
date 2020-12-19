@@ -12,13 +12,13 @@ use_math: true
 
 최적화 기법 없이 **Condition 1**의 점화식을 구한다면 $O(KN^2)$의 시간이 걸릴 것이다. 하지만 Divide and Conquer Optimization을 사용해 시간복잡도를 $O(KN\log N)$으로 줄일 수 있다. ($t \leq K$, $i \leq N$)
 
-
+결국 핵심은 **Condition 2**의 정보를 이용해 탐색의 범위를 줄이는 것이다. 다음과 같은 
 
 
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlsxMTgxODE5NjcxLC0xMTU0NTE5MjQ3LDczODkyODM0Mywt
-MjUyMTc4OTEzLC0zOTYwODY1MzBdfQ==
+kiOlstNTQ2MDUxOTY5LDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
+NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
