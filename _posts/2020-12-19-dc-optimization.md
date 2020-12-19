@@ -14,13 +14,29 @@ use_math: true
 
 결국 핵심은 **Condition 2**의 정보를 이용해 탐색의 범위를 줄이는 것이다. 다음과 같은 방법으로 고정된 $t$에 대한 $D(t, i)$를 $O(N \log N)$의 시간 안에 구할 수 있다.
 
-    
+```c
+void dp(int t, int s, int e, int l, int r){
+    // get D[t][s..e] where l <= j <= r
+    if(s>e) return;
+    int m = (s+e)>>1;
+    D[t][m] = MAX_INT;
+    int opt = l;
+    for(int j=l; j<=r && j<m; ++j){
+        if(D[t][m] > D[t-1][j] + C(j, m)){
+            opt = j;
+            D[t][m] = D[t-1][j] + C(j, m);
+        }
+    }
+    dp(t, s, m-1, l, opt);
+    dp(t, m+1, e, opt, r);
+}
+```
 
 
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstODg3MTIyNDA0LDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
+kiOlstNDgyNTk0NTE0LDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
 NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
