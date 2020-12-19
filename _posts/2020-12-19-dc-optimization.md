@@ -34,9 +34,12 @@ void dp(int t, int s, int e, int l, int r){
 
 ## Condition 2의 특수한 경우
 
+때때로 Condition 2를 보이는 것보다 $C(i, j)$가 다음의 조건을 만족함을 보이는 것이 더 쉬울 때가 있다.
+
+**Condition 2-1** 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTkwOTIwOTY1MCwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
+kiOlstMTkwOTAyNzg4NiwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
 LDczODkyODM0MywtMjUyMTc4OTEzLC0zOTYwODY1MzBdfQ==
 -->
