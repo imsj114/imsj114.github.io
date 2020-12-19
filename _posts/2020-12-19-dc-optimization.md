@@ -22,9 +22,9 @@ void dp(int t, int s, int e, int l, int r){
     D[t][m] = MAX_INT;
     int opt;
     for(int k=l; k<=r && k<m; ++k){
-        if(D[t][m] > D[t-1][k] + C(k, m)){
+        if(D[t][m] > D[t-1][k] + C[k][m]){
             opt = j;
-            D[t][m] = D[t-1][k] + C(k, m);
+            D[t][m] = D[t-1][k] + C[k][m];
         }
     }
     dp(t, s, m-1, l, opt);
@@ -35,6 +35,6 @@ void dp(int t, int s, int e, int l, int r){
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTU3Nzk4NzQ5MSwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
+kiOlstMTkzNzQyMTY5OSwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
 LDczODkyODM0MywtMjUyMTc4OTEzLC0zOTYwODY1MzBdfQ==
 -->
