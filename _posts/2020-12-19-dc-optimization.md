@@ -40,6 +40,8 @@ void dp(int t, int s, int e, int l, int r){
 
 이 때 배열 $C$를 Monge array라고 부르는데, 이러한 경우 **Condition 2**가 성립함이 증명되어 있다.
 
+
+
 ## 관련 문제
 
 풀어본 문제만 올려놓았다.
@@ -47,6 +49,6 @@ void dp(int t, int s, int e, int l, int r){
 * 12766 지사배정 [https://www.acmicpc.net/problem/12766] (ICPC 2016 WF B)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlsyMTExMTU3MjkyLDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
+kiOlstNTU2MTk4MTkyLDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
 NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
