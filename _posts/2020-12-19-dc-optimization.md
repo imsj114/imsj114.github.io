@@ -12,13 +12,13 @@ header-includes:
 
 **Condition 2**.  $A(t, i) := \argmin{k<i}{D(t-1, k) + C(k, i)}$일 때, $A(t, i) \leq A(t, i+1)$
 
-최적화 기법 없이 **Condition 1**의 점화식을 구한ㄷ
+최적화 기법 없이 **Condition 1**의 점화식을 구한다면 $O(KN^2)$의 시간이 걸릴 것이다. 하지만 Divide and Conquer Optimization을 사용해 시간복잡도를 $O(KN\log N)$으로 줄일 수 있다.
 
 
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstMTEwMDEyNTgzNywtMTE1NDUxOTI0Nyw3Mzg5MjgzNDMs
+kiOlstMTY4OTI2NzM3NCwtMTE1NDUxOTI0Nyw3Mzg5MjgzNDMs
 LTI1MjE3ODkxMywtMzk2MDg2NTMwXX0=
 -->
