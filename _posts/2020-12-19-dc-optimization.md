@@ -33,10 +33,8 @@ void dp(int t, int s, int e, int l, int r){
 ```
 
 
-
-
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstNDgyNTk0NTE0LDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
+kiOlstODMxNTI4NjIyLDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
 NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
