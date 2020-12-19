@@ -38,9 +38,9 @@ void dp(int t, int s, int e, int l, int r){
 
 **Condition 2-1** $a \leq b \leq c \leq d$ 일 때 $C(a, c) + C(b, d) \leq C(a, d) + C(b, c)$
 
-이 때 배열 $C$를 Monge array라고 부르는데, 이러한 경우 **Condition 2**가 성립함이 증명되어 있다. 따라서 울
+이 때 배열 $C$를 Monge array라고 부르는데, 이러한 경우 **Condition 2**가 성립함이 증명되어 있다.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOls3MDgzNzE1MDIsMTE4MTgxOTY3MSwtMTE1NDUxOTI0Nyw3
-Mzg5MjgzNDMsLTI1MjE3ODkxMywtMzk2MDg2NTMwXX0=
+kiOlsxMjU3NTU5Mjg2LDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
+NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
 -->
