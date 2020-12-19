@@ -16,15 +16,15 @@ use_math: true
 
 ```c
 void dp(int t, int s, int e, int l, int r){
-    // get D[t][s..e] where l <= j <= r
+    // get D[t][s..e] given that l <= k_opt <= r
     if(s>e) return;
     int m = (s+e)>>1;
     D[t][m] = MAX_INT;
-    int opt = l;
-    for(int j=l; j<=r && j<m; ++j){
-        if(D[t][m] > D[t-1][j] + C(j, m)){
+    int opt;
+    for(int k=l; k<=r && k<m; ++k){
+        if(D[t][m] > D[t-1][k] + C(k, m)){
             opt = j;
-            D[t][m] = D[t-1][j] + C(j, m);
+            D[t][m] = D[t-1][k] + C(k, m);
         }
     }
     dp(t, s, m-1, l, opt);
@@ -35,6 +35,6 @@ void dp(int t, int s, int e, int l, int r){
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBTSU1cbiIsImhpc3Rvcn
-kiOlstODMxNTI4NjIyLDExODE4MTk2NzEsLTExNTQ1MTkyNDcs
-NzM4OTI4MzQzLC0yNTIxNzg5MTMsLTM5NjA4NjUzMF19
+kiOlstMTc4MTc1OTkzOSwxMTgxODE5NjcxLC0xMTU0NTE5MjQ3
+LDczODkyODM0MywtMjUyMTc4OTEzLC0zOTYwODY1MzBdfQ==
 -->
