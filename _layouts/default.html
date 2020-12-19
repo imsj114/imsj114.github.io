@@ -7,6 +7,9 @@
 -->
 <html lang="en">
   {% include head.html %}
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
   <body>
     {% include navbar.html %}
     <div class="content">
