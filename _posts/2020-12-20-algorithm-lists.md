@@ -7,10 +7,11 @@ title: PS를 위한 알고리즘 종류
 
 처음부터 다 적으려면 많이 힘들기 때문에, lazy propagation을 통해 리스트를 만들려고 한다. 앞으로 문제를 풀면 관련 내용들을 조금씩 추가해 나갈테니, 지금은 조금 비어있어도 양해해주길 바란다.
 
-*	기하
-	*	스위핑 
 * Min-cost Max-flow
 	* Dinic's Algorithm ([https://jason9319.tistory.com/150](https://jason9319.tistory.com/150))
+*	기하
+	*	CCW 판별 ([https://www.acmicpc.net/blog/view/27](https://www.acmicpc.net/blog/view/27))
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2MzAzNTAxXX0=
+eyJoaXN0b3J5IjpbMTAxODMyMzc3OV19
 -->
