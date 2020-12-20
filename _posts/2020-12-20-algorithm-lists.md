@@ -8,9 +8,10 @@ title: PS를 위한 알고리즘 종류
 처음부터 다 적으려면 많이 힘들기 때문에, 앞으로 푸는 문제들을 리스트에 추가해나가는 방식으로 리스트를 lazy propagation을 통해 만들어나가려고 한다.
 
 *	스위핑 기법
-	*	[12771 Oil]([https://www.acmicpc.net/problem/12771](https://www.acmicpc.net/problem/12771))
+	*	[12771 Oil](https://www.acmicpc.net/problem/12771)
 * Min-cost Max-flow (Dinic's Algorithm)
 	* [13161 분단의 슬픔](https://www.acmicpc.net/problem/13161)
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTMxNzkyMV19
+eyJoaXN0b3J5IjpbLTEyNTMwODM4MzJdfQ==
 -->
